@@ -38,6 +38,8 @@ const FunkoCard: React.FC<FunkoProps> = ({ funkos, setFunkos }) => {
 
             </CardContent>
 
+            <EditFunkoButton funko={funko} setFunkos={setFunkos} />
+
           </Card>
         );
       })}
